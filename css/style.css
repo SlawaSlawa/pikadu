@@ -76,7 +76,8 @@ body {
     border-radius: 4px;
     overflow: hidden;
     border: 1px solid #d9d9d9;
-    width: 237px;
+    max-width: 237px;
+    width: 60%;
     height: 32px;
 }
 
@@ -405,3 +406,58 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
+
+.add-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-title, .add-text {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding: 23px 30px;
+    margin-bottom: 16px;
+}
+
+.add-text {
+    min-height: 362px;
+}
+
+.add-buttons button{
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: #faad14;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px;
+    border: none;
+    max-width: 370px;
+    width: 100%;
+    margin-right: 2%;
+}
+
+.add-button .icon{
+    fill: #fff;
+}
+
+.button-outline {
+    background-color: #fff;
+    border: 1px solid #FFC53D;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFC53D;
+    padding: 13px 26px 13px 13px;
+    margin-right: 1%;
+}
+
+.button-outline .icon{
+    fill: #FFC53D;
+    margin-right: 20px;
+}
+

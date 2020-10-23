@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikadu new post</title>
+    <link rel="stylesheet" href="./libs/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="/" class="header-logo">
+                <img class="header-logo-img" src="./img/pikadu-logo.svg" alt="Logo: Pikadu">
+            </a>
+            <nav class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-menu-item">
+                        <a href="#" class="header-menu-link">
+                            Свежее
+                        </a> <!-- /.header-menu-link -->
+                    </li>
+                    <!-- /.header-menu-item -->
+                    <li class="header-menu-item">
+                        <a href="#" class="header-menu-link">
+                            Лучшее
+                        </a> <!-- /.header-menu-link -->
+                    </li>
+                    <!-- /.header-menu-item -->
+                    <li class="header-menu-item">
+                        <a href="#" class="header-menu-link">
+                            Горячее
+                        </a> <!-- /.header-menu-link -->
+                    </li>
+                    <!-- /.header-menu-item -->
+                    <li class="header-menu-item">
+                        <a href="#" class="header-menu-link">
+                            Подписки
+                        </a> <!-- /.header-menu-link -->
+                    </li>
+                    <!-- /.header-menu-item -->
+                </ul>
+                <!-- /.header-menu -->
+
+            </nav>
+            <!-- /.header-nav -->
+            <div class="input-group search">
+                <input type="search" class="search-input" placeholder="Поиск по сайту">
+                <button class="search-button">
+                    <img src="./img/search-icon.svg" alt="Icon: Search" class="search-icon">
+                </button>
+            </div>
+            <!-- /.input-group -->
+            <a href="#" id="menu-toggle" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <!-- /.header-wrapper -->
+    </header>
+    <!-- /.header -->
+    <div class="content">
+        <main class="posts">
+
+            <form action="#" class="add-post">
+                <input type="text" class="add-title" name="post-title" placeholder="Заголовок поста">
+                <textarea id="post-text" class="add-text" name="post-text" placeholder="Текст вашего поста"></textarea>
+                <div class="add-buttons">
+                    <button type="submit" class="button add-button">
+                        <svg width="12" height="14" class="icon">
+                            <use xlink:href="./img/icons.svg#fire-icon"></use>
+                        </svg>
+                        Опубликовать пост
+                    </button>
+                    <!-- /.add-button -->
+                    <button class="button button-outline">
+                        <svg width="14" height="11" class="icon">
+                            <use xlink:href="./img/icons.svg#add-video-icon"></use>
+                        </svg>
+                        Видео
+                    </button>
+                    <!-- /.button-outline -->
+                    <button class="button button-outline">
+                        <svg width="14" height="11" class="icon">
+                            <use xlink:href="./img/icons.svg#add-photo-icon"></use>
+                        </svg>
+                        Фото
+                    </button>
+                    <!-- /.button-outline -->
+                </div>
+                <!-- /.add-buttons -->
+
+            </form>
+
+        </main>
+        <!-- /.posts -->
+        <aide class="aside sidebar">
+            <div class="user">
+                <a href="#" class="user-info">
+                    <img width="40" height="40" src="./img/avatar.jpg" alt="Photo: User" class="user-avatar">
+                    <span class="user-name">
+                        marivana
+                    </span>
+                </a>
+                <!-- /.user-info -->
+                <a href="#" class="exit">
+                    <svg width="20" height="20" class="icon icon-exit">
+                        <use xlink:href="./img/icons.svg#exit-icon"></use>
+                    </svg>
+                </a>
+                <!-- /.exit -->
+            </div>
+            <!-- /.user -->
+            <nav class="sidebar-nav">
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">
+                            Ответы
+                        </a>
+                        <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">
+                            Комментарии
+                        </a>
+                        <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link active">
+                            Оценки
+                        </a>
+                        <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">
+                            Сохраненное
+                        </a>
+                        <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">
+                            Подписки
+                        </a>
+                        <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">
+                            Заметки
+                        </a>
+                        <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">
+                            Игнор-лист
+                        </a>
+                        <!-- /.sidebar-menu-link -->
+                    </li>
+                    <!-- /.sidebar-menu-item -->
+                </ul>
+                <!-- /.sidebar-menu -->
+            </nav>
+            <!-- /.sidebar-nav -->
+            <a href="#" class="promo"></a>
+        </aide>
+        <!-- /.aside sidebar -->
+    </div>
+    <!-- /.content -->
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
