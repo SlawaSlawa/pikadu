@@ -421,6 +421,7 @@ body {
 
 .add-text {
     min-height: 362px;
+    resize: none;
 }
 
 .add-buttons button{
